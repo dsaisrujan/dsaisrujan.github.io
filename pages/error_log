@@ -1,0 +1,100 @@
+[21-Dec-2017 07:24:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/pages/home.php:1) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:24:40 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: cname in /home/ebandham/public_html/svsfs.in/pages/home.php on line 44
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: psno in /home/ebandham/public_html/svsfs.in/pages/home.php on line 44
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/home.php on line 55
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/home.php on line 55
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/home.php on line 55
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: murl in /home/ebandham/public_html/svsfs.in/pages/home.php on line 62
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: status1 in /home/ebandham/public_html/svsfs.in/pages/home.php on line 66
+[21-Dec-2017 07:24:40 UTC] PHP Notice:  Undefined variable: status2 in /home/ebandham/public_html/svsfs.in/pages/home.php on line 67
+[21-Dec-2017 07:25:05 UTC] PHP Warning:  include_once(../../includes/db_connect.php): failed to open stream: No such file or directory in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 2
+[21-Dec-2017 07:25:05 UTC] PHP Warning:  include_once(): Failed opening '../../includes/db_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 2
+[21-Dec-2017 07:25:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php:1) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:05 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:05 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: otype in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 119
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: otype in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 119
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: tdiameter in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 128
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: tlength in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 132
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: capacity in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 137
+[21-Dec-2017 07:25:05 UTC] PHP Notice:  Undefined variable: insvalue in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 82
+[21-Dec-2017 07:25:10 UTC] PHP Warning:  include_once(../../includes/db_connect.php): failed to open stream: No such file or directory in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 3
+[21-Dec-2017 07:25:10 UTC] PHP Warning:  include_once(): Failed opening '../../includes/db_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 3
+[21-Dec-2017 07:25:10 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/includes/db_connect.php:2) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:10 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:10 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: user in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 150
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: address in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 159
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: address1 in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 161
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: cell in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 164
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: agname in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 166
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: mailid in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 169
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: crlimit in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 171
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 211
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 214
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 215
+[21-Dec-2017 07:25:10 UTC] PHP Notice:  Undefined variable: insvalue in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 136
+[21-Dec-2017 07:25:14 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/pages/menumaster1.php:1) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:14 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:14 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/menumaster1.php on line 97
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/menumaster1.php on line 97
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  Undefined variable: mhead in /home/ebandham/public_html/svsfs.in/pages/menumaster1.php on line 97
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  Undefined variable: murl in /home/ebandham/public_html/svsfs.in/pages/menumaster1.php on line 104
+[21-Dec-2017 07:25:14 UTC] PHP Notice:  Undefined variable: total_pages in /home/ebandham/public_html/svsfs.in/pages/function/menufunction.php on line 56
+[21-Dec-2017 07:25:29 UTC] PHP Warning:  include_once(../../includes/db_connect.php): failed to open stream: No such file or directory in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 3
+[21-Dec-2017 07:25:29 UTC] PHP Warning:  include_once(): Failed opening '../../includes/db_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 3
+[21-Dec-2017 07:25:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/includes/db_connect.php:2) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:29 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:29 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: user in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 150
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: address in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 159
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: address1 in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 161
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: cell in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 164
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: agname in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 166
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: mailid in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 169
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: crlimit in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 171
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: prcode in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 184
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 211
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 214
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: simg in /home/ebandham/public_html/svsfs.in/pages/creditcustomer.php on line 215
+[21-Dec-2017 07:25:29 UTC] PHP Notice:  Undefined variable: insvalue in /home/ebandham/public_html/svsfs.in/pages/function/ccustomerfunction.php on line 136
+[21-Dec-2017 07:25:33 UTC] PHP Warning:  include_once(../../includes/db_connect.php): failed to open stream: No such file or directory in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 2
+[21-Dec-2017 07:25:33 UTC] PHP Warning:  include_once(): Failed opening '../../includes/db_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 2
+[21-Dec-2017 07:25:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php:1) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:33 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:33 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: otype in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 119
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: otype in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 119
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: tdiameter in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 128
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: tlength in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 132
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: capacity in /home/ebandham/public_html/svsfs.in/pages/calibrationmaster.php on line 137
+[21-Dec-2017 07:25:33 UTC] PHP Notice:  Undefined variable: insvalue in /home/ebandham/public_html/svsfs.in/pages/function/calimasterfunction.php on line 82
+[21-Dec-2017 07:25:38 UTC] PHP Warning:  include_once(../../includes/db_connect.php): failed to open stream: No such file or directory in /home/ebandham/public_html/svsfs.in/pages/function/petroldipfunction.php on line 2
+[21-Dec-2017 07:25:38 UTC] PHP Warning:  include_once(): Failed opening '../../includes/db_connect.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/ebandham/public_html/svsfs.in/pages/function/petroldipfunction.php on line 2
+[21-Dec-2017 07:25:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ebandham/public_html/svsfs.in/includes/db_connect.php:2) in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:38 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 40
+[21-Dec-2017 07:25:38 UTC] PHP Warning:  session_regenerate_id(): Cannot regenerate session id - headers already sent in /home/ebandham/public_html/svsfs.in/includes/functions.php on line 41
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 124
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 124
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 124
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 124
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 124
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: pdtank in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 147
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: dip in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 173
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: volume in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 178
+[21-Dec-2017 07:25:38 UTC] PHP Notice:  Undefined variable: diff in /home/ebandham/public_html/svsfs.in/pages/petroldip.php on line 180

@@ -1,10 +1,12 @@
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>INDIAN OIL CORPORATION - Sri Venkateswaraswamy Filling Station :: Home</title>
+<title>INDIAN OIL CORPORATION - Sri Venkateswara Swamy Filling Station :: Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Petrol, Desil, oil, grese" />
+
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- bootstrap-css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
@@ -30,10 +32,6 @@
 		});
 	});
 </script>
-<link href='css/immersive-slider.css' rel='stylesheet' type='text/css'>
-<!-- pricing -->
-<link rel="stylesheet" href="css/jquery.flipster.css">
-<!-- //pricing -->
 </head>
 <body>
 	<!-- header-top -->
@@ -67,7 +65,7 @@
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="w3layouts-logo">
-							<h1><a href="index.php">Sri Venkateswaraswamy <br> <span>Filling Station</span></a></h1>
+							<h1><a href="index.php">Sri Venkateswara Swamy <br> <span>Filling Station</span></a></h1>
 						</div>
 					</div>
 
@@ -75,11 +73,11 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.php" class="hvr-sweep-to-bottom">Home</a></li>
+								<li ><a href="index.php" class="hvr-sweep-to-bottom">Home</a></li>
 								<li><a href="about.php" class="hvr-sweep-to-bottom">Aboutus</a></li>
-								<li><a href="plans.php" class="hvr-sweep-to-bottom">Services</a></li>
-								<li><a href="blog.php" class="hvr-sweep-to-bottom">Products</a></li>
-								<li><a href="mail.php" class="hvr-sweep-to-bottom">Mail Us</a></li>
+								<li><a href="services.php" class="hvr-sweep-to-bottom">Services</a></li>
+								<li><a href="products.php" class="hvr-sweep-to-bottom">Products</a></li>
+								<li class="active"><a href="mail.php" class="hvr-sweep-to-bottom">Mail Us</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -88,96 +86,54 @@
 			</div>
 	</div>
 	<!-- //header -->
-	<!-- banner -->
-	<div class="main">
-		<div class="page_container">
-			<div id="immersive_slider">
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/3a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content">
-							 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat, tellus metus lacinia nunc, nec vulputate purus nisl nec tortor. Mauris sem diam, interdum a euismod vitae, viverra non sapien. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/1a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content">
-							 
-							<p>Donec sagittis, dui sed lobortis convallis, ante eros auctor leo, vel commodo lacus nisl vitae velit. Nulla facilisi. Integer vehicula porta urna, id lacinia nisl semper vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/2a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content"> 
-							<p>Aliquam at efficitur odio, et commodo odio. Nulla est lectus, tristique sit amet lorem at, porttitor dapibus nisi. Quisque bibendum sem ut ex pharetra sagittis. Vestibulum eu sapien non purus interdum tempus. Aenean varius elit sit amet lorem ultrices, at iaculis velit sodales. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  
-				  <a href="#" class="is-prev">&laquo;</a>
-				  <a href="#" class="is-next">&raquo;</a>
-			</div>
-		</div>
+	<!-- about-heading -->
+	<div class="about-heading">
+		<h2>Contact <span>Us</span></h2>
 	</div>
-	<script type="text/javascript">
-		$(document).ready( function() {
-			$("#immersive_slider").immersive_slider({
-				  container: ".main"
-			});
-		});
-
-	</script>
-	<!-- //banner -->
-	<div class="domain">
+	<!-- //about-heading -->
+	<!-- contact -->
+	<div class="contact">
 		<div class="container">
-			<form class="search-form domain-search" action="#" method="post">
-				<div class="three-fifth11 column first">
-					<h2>Employee / Credit Customer <span>Login</span></h2>
+			<div class="agile-contact-form">
+				<div class="col-md-6 contact-form-left">
+					<div class="w3layouts-contact-form-top">
+						<h3>Get in <span>touch</span></h3>
+						<p>Pellentesque eget mi nec est tincidunt accumsan. Proin fermentum dignissim justo, vel euismod justo sodales vel. In non condimentum mauris. Maecenas condimentum interdum lacus, ac varius nisl dignissim ac. Vestibulum euismod est risus, quis convallis nisi tincidunt eget. Sed ultricies congue lacus at fringilla.</p>
+					</div>
+					<div class="agileits-contact-address">
+						<ul>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> <span>08683 255639</span></li>
+							<li><i class="fa fa-phone" aria-hidden="true"></i> <span>+91 93480 91122, 9247019482</span></li>
+							<li><i class="fa fa-phone fa-envelope" aria-hidden="true"></i> <span><a href="mailto:example@email.com">mail@example.com</a></span></li>
+							<li><i class="fa fa-map-marker" aria-hidden="true"></i> <span>Dorakunta(V), Kodad(M), Nalgonda(D)-508 206. Telangana India</span></li>
+						</ul>
+					</div>
 				</div>
-				<div class="two-fifth column first"><br>
-					<input type="text" class="text"  name="userid" placeholder="Enter your id" required="">               
-				</div>
-				<div class="two-fifth column"><br>
-						<input type="text"  class="text" name="password" placeholder="Enter your password" required="">               
-				</div>
-				<div class="one-fifth column"><br>
-					<input type="submit" value="Signin">
+				<div class="col-md-6 contact-form-right">
+					<div class="contact-form-top">
+						<h3>Send us a <span>message</span></h3>
+					</div>
+					<div class="agileinfo-contact-form-grid">
+						<form action="#" method="post">
+							<input type="text" name="Name" placeholder="Name" required="">
+							<input type="email" name="Email" placeholder="Email" required="">
+							<input type="text" name="Telephone" placeholder="Telephone" required="">
+							<textarea name="Message" placeholder="Message" required=""></textarea>
+							<button class="btn1">Submit</button>
+						</form>
+					</div>
 				</div>
 				<div class="clearfix"> </div>
-			</form>
-		</div>
-	</div>
-	<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container">
-			<div class="w3-banner-bottom-heading">
-				<h3>What <span>We Do?</span></h3>
 			</div>
-			<div class="agileits-banner-bottom">
-				<div class="col-md-12">
-					 	  
-						 
-							 <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
-                            	<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
-					 
-					 
-				</div>
-			 
-				<div class="clearfix"> </div>
+			
+			<div class="w3agile-map">
+				<h3>Find us <span>here</span></h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4537.816532527679!2d80.0010875820096!3d16.982730692746493!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4b9deb4996c51f85!2z4LCH4LCC4LCh4LC_4LCv4LCo4LGNIOCwhuCwr-Cwv-CwsuCxjSDgsKrgsYbgsJ_gsY3gsLDgsYvgsLLgsY0g4LCq4LCC4LCq4LGB!5e0!3m2!1ste!2sin!4v1480578379794"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</div>
-	<!-- //banner-bottom -->
-	 
-	<!-- choose -->
+	<!-- //contact -->
+    <!-- choose -->
 	<div class="choose jarallax">
 		<div class="w3-agile-testimonial">
 			<div class="container">
@@ -317,12 +273,10 @@
 		</div>
 	</div>
 	<!-- //choose -->
-	 
 	<!-- footer -->
 	<div class="footer">
-	 
-		<div class="copyright">
-			<p>© 2016 Sri Venkateshwara Filling Station, All right reserved.  | Developed by </span><a href="http://aryatechnologies.net" target="_blank">Aryatechnologies</a></p>
+			<div class="copyright">
+		<p>© 2016 Sri Venkateshwara Swamy Filling Station, All right reserved. | Developed by </span><a href="http://aryatechnologies.net" target="_blank">Aryatechnologies</a></p>
 		</div>
 	</div>
 	<!-- //footer -->
@@ -335,38 +289,18 @@
 			imgHeight: 768
 		})
 	</script>
-	<script src="js/responsiveslides.min.js"></script>
+    	<script src="js/responsiveslides.min.js"></script>
+
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<!-- here stars scrolling icon -->
 	<script type="text/javascript">
 		$(document).ready(function() {
-			/*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear' 
-				};
-			*/
 								
 			$().UItoTop({ easingType: 'easeOutQuart' });
 								
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
-	<!-- pricing -->
-	<script src="js/jquery.flipster.js"></script>
-	<script>
-	<!--
-		
-		$(function(){ $(".flipster").flipster({ style: 'carousel', start: 0 }); });
-
-	-->
-	</script>
-	<!-- //pricing -->
-	<!-- slider -->
-	<script type="text/javascript" src="js/jquery.immersive-slider.js"></script>
-	<!-- //slider -->
 </body>	
 </html>

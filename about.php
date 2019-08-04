@@ -1,3 +1,9 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,10 +36,6 @@
 		});
 	});
 </script>
-<link href='css/immersive-slider.css' rel='stylesheet' type='text/css'>
-<!-- pricing -->
-<link rel="stylesheet" href="css/jquery.flipster.css">
-<!-- //pricing -->
 </head>
 <body>
 	<!-- header-top -->
@@ -75,10 +77,10 @@
 					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 						<nav>
 							<ul class="nav navbar-nav">
-								<li class="active"><a href="index.php" class="hvr-sweep-to-bottom">Home</a></li>
-								<li><a href="about.php" class="hvr-sweep-to-bottom">Aboutus</a></li>
-								<li><a href="plans.php" class="hvr-sweep-to-bottom">Services</a></li>
-								<li><a href="blog.php" class="hvr-sweep-to-bottom">Products</a></li>
+								<li ><a href="index.php" class="hvr-sweep-to-bottom">Home</a></li>
+								<li class="active"><a href="about.php" class="hvr-sweep-to-bottom">Aboutus</a></li>
+								<li><a href="services.php" class="hvr-sweep-to-bottom">Services</a></li>
+								<li><a href="products.php" class="hvr-sweep-to-bottom">Products</a></li>
 								<li><a href="mail.php" class="hvr-sweep-to-bottom">Mail Us</a></li>
 							</ul>
 						</nav>
@@ -88,95 +90,199 @@
 			</div>
 	</div>
 	<!-- //header -->
-	<!-- banner -->
-	<div class="main">
-		<div class="page_container">
-			<div id="immersive_slider">
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/3a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content">
-							 
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur velit ac fringilla fermentum. Nulla sodales, magna eget pharetra feugiat, tellus metus lacinia nunc, nec vulputate purus nisl nec tortor. Mauris sem diam, interdum a euismod vitae, viverra non sapien. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/1a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content">
-							 
-							<p>Donec sagittis, dui sed lobortis convallis, ante eros auctor leo, vel commodo lacus nisl vitae velit. Nulla facilisi. Integer vehicula porta urna, id lacinia nisl semper vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  <div class="slide" data-blurred="">
-						<div class="col-md-6 image">
-							<img src="images/2a.jpg" alt="Slider 1" />
-						</div>
-						<div class="col-md-6 content"> 
-							<p>Aliquam at efficitur odio, et commodo odio. Nulla est lectus, tristique sit amet lorem at, porttitor dapibus nisi. Quisque bibendum sem ut ex pharetra sagittis. Vestibulum eu sapien non purus interdum tempus. Aenean varius elit sit amet lorem ultrices, at iaculis velit sodales. </p>
-						</div>
-						<div class="clearfix"> </div>
-				  </div>
-				  
-				  <a href="#" class="is-prev">&laquo;</a>
-				  <a href="#" class="is-next">&raquo;</a>
+	<!-- about-heading -->
+	<div class="about-heading">
+		<h2>About <span>Us</span></h2>
+	</div>
+	<!-- //about-heading -->
+	<!-- about -->
+	<div class="about">
+		<!-- about-top -->
+		<div class="agileits-about-top">
+			<div class="container">
+				<div class="w3-banner-bottom-heading">
+					<h3>Who we <span>are</span></h3>
+				</div>
+				<div class="agileinfo-top-grids">
+					<div class="col-sm-4 wthree-top-grid">
+						<img src="images/7.jpg" alt="" />
+						<h4>Curabitur non blandit justo</h4>
+						<p>Pellentesque auctor euismod lectus a pretium. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.</p>
+					</div>
+					<div class="col-sm-4 wthree-top-grid">
+						<img src="images/9.jpg" alt="" />
+						<h4>Curabitur non blandit justo</h4>
+						<p>Pellentesque auctor euismod lectus a pretium. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.</p>
+					</div>
+					<div class="col-sm-4 wthree-top-grid">
+						<img src="images/10.jpg" alt="" />
+						<h4>Curabitur non blandit justo</h4>
+						<p>Pellentesque auctor euismod lectus a pretium. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.nascetur ridiculus mus. Curabitur ut elit at est tempus volutpat.</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<script type="text/javascript">
-		$(document).ready( function() {
-			$("#immersive_slider").immersive_slider({
-				  container: ".main"
-			});
-		});
-
-	</script>
-	<!-- //banner -->
-	<div class="domain">
-		<div class="container">
-			<form class="search-form domain-search" action="#" method="post">
-				<div class="three-fifth11 column first">
-					<h2>Employee / Credit Customer <span>Login</span></h2>
+		<!-- //about-top -->
+		
+		<!-- choose -->
+		<div class="jarallax w3-agileits-choose-grid">
+			<div class="container">
+				<div class="w3-banner-bottom-heading about-choose">
+					<h3>Why choose  <span>us?</span></h3>
 				</div>
-				<div class="two-fifth column first"><br>
-					<input type="text" class="text"  name="userid" placeholder="Enter your id" required="">               
-				</div>
-				<div class="two-fifth column"><br>
-						<input type="text"  class="text" name="password" placeholder="Enter your password" required="">               
-				</div>
-				<div class="one-fifth column"><br>
-					<input type="submit" value="Signin">
-				</div>
-				<div class="clearfix"> </div>
-			</form>
-		</div>
-	</div>
-	<!-- banner-bottom -->
-	<div class="banner-bottom">
-		<div class="container">
-			<div class="w3-banner-bottom-heading">
-				<h3>What <span>We Do?</span></h3>
-			</div>
-			<div class="agileits-banner-bottom">
-				<div class="col-md-12">
-					 	  
-						 
-							 <p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias taque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
-                            	<p>Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias</p>
-					 
-					 
-				</div>
-			 
-				<div class="clearfix"> </div>
+				<div class="agile-choose-grids">
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Suspendisse ornare vitae ex nec aliquam</h4>
+							<p>Nunc et massa ut purus porta euismod quis eu erat. Nam ornare faucibus elit sed tempor. Quisque iaculis odio nibh, et auctor tellus rhoncus vel. Maecenas arcu neque, semper eu commodo ut, pharetra vitae erat.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-cogs" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Suspendisse ornare vitae ex nec aliquam</h4>
+							<p>Nunc et massa ut purus porta euismod quis eu erat. Nam ornare faucibus elit sed tempor. Quisque iaculis odio nibh, et auctor tellus rhoncus vel. Maecenas arcu neque, semper eu commodo ut, pharetra vitae erat.</p>
+						</div>
+					</div>
+					<div class="col-sm-4 agile-choose-grid">
+						<div class="choose-icon">
+							<i class="fa fa-thumbs-o-up" aria-hidden="true"></i>
+						</div>
+						<div class="choose-info">
+							<h4>Suspendisse ornare vitae ex nec aliquam</h4>
+							<p>Nunc et massa ut purus porta euismod quis eu erat. Nam ornare faucibus elit sed tempor. Quisque iaculis odio nibh, et auctor tellus rhoncus vel. Maecenas arcu neque, semper eu commodo ut, pharetra vitae erat.</p>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
+		<!-- //choose -->
+		
+		<!-- team -->
+		<div class="team">
+			<div class="container">
+				<div class="w3-banner-bottom-heading">
+					<h3>Our <span>Team</span></h3>
+				</div>
+				<div class="team-grids">
+					<!-- Bottom to top-->
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t1.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>David Watson</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t2.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>Shane Smith</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t3.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>Steve Warner</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t4.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>Dale Duminy</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t5.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>Shane Miller</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="col-sm-4 team-grid">
+							<!-- normal -->
+							<div class="ih-item circle effect10 bottom_to_top">
+								<div class="img"><img src="images/t6.jpg" alt="img" /></div>
+								<div class="info">
+									<h3>James Kallis</h3>
+									<div class="icons">
+										<ul>
+											<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+											<li class="team-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+											<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- end normal -->
+						</div>
+						<div class="clearfix"> </div>
+					<!-- end Bottom to top-->
+				</div>
+			</div>
+		</div>
+		<!-- //team -->
 	</div>
-	<!-- //banner-bottom -->
-	 
+	<!-- //about -->
+     
 	<!-- choose -->
 	<div class="choose jarallax">
 		<div class="w3-agile-testimonial">
@@ -317,10 +423,9 @@
 		</div>
 	</div>
 	<!-- //choose -->
-	 
 	<!-- footer -->
 	<div class="footer">
-	 
+	 	 
 		<div class="copyright">
 			<p>© 2016 Sri Venkateshwara Filling Station, All right reserved.  | Developed by </span><a href="http://aryatechnologies.net" target="_blank">Aryatechnologies</a></p>
 		</div>
@@ -335,7 +440,8 @@
 			imgHeight: 768
 		})
 	</script>
-	<script src="js/responsiveslides.min.js"></script>
+    	<script src="js/responsiveslides.min.js"></script>
+
 	<script type="text/javascript" src="js/move-top.js"></script>
 	<script type="text/javascript" src="js/easing.js"></script>
 	<!-- here stars scrolling icon -->
@@ -355,18 +461,5 @@
 			});
 	</script>
 	<!-- //here ends scrolling icon -->
-	<!-- pricing -->
-	<script src="js/jquery.flipster.js"></script>
-	<script>
-	<!--
-		
-		$(function(){ $(".flipster").flipster({ style: 'carousel', start: 0 }); });
-
-	-->
-	</script>
-	<!-- //pricing -->
-	<!-- slider -->
-	<script type="text/javascript" src="js/jquery.immersive-slider.js"></script>
-	<!-- //slider -->
 </body>	
 </html>

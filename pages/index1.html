@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" type="text/css" href="backdate/datepickertime/jquery.datetimepicker.css"/>
+<style type="text/css">
+
+.custom-date-style {
+	background-color: red !important;
+}
+
+.input{	
+}
+.input-wide{
+	width: 500px;
+}
+
+</style>
+</head>
+<body>
+	
+	 	<h3>DateTimePicker</h3>
+	<input type="text" value="" id="datetimepicker"/><br><br>
+ 	<h3>Mask DateTimePicker</h3>
+	<input type="text" value="" id="datetimepicker_mask"/><br><br>
+ 
+</body>
+<script src="backdate/datepickertime/jquery.js"></script>
+<script src="backdate/datepickertime/jquery.datetimepicker.full.js"></script>
+<script>/*
+window.onerror = function(errorMsg) {
+	$('#console').html($('#console').html()+'<br>'+errorMsg)
+}*/
+
+$.datetimepicker.setLocale('en');
+ 
+$('#datetimepicker').datetimepicker({
+dayOfWeekStart : 1,
+lang:'en' 
+});
+$('#datetimepicker').datetimepicker({value:'2015/04/15 05:03',step:1});
+
+$('.some_class').datetimepicker();
+ 
+
+</script>
+</html>

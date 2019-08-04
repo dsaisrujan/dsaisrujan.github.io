@@ -1,0 +1,84 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,300);
+@charset "UTF-8";
+/* Base Styles */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  font-weight: normal;
+  text-decoration: none;
+  line-height: 1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  position: relative;
+}
+#cssmenu a {
+  line-height: 1.1;
+}
+#cssmenu {
+  width: 219px;
+}
+#cssmenu > ul > li > a {
+  padding-right: 24px;
+  font-size: 22px;
+  font-weight: bold;
+  display: block;
+  background: #E4E4E4;
+  color: #121212;
+  border-bottom: 1px dashed #999999;
+  text-transform: uppercase;
+}
+#cssmenu > ul > li > a > span {
+  background:#E4E4E4 ; /* #ed1144; */
+  padding: 9px;
+  display: block;
+  font-size: 13px;
+  font-weight: 300;
+}
+#cssmenu > ul > li > a:hover {
+  text-decoration: none;
+}
+#cssmenu > ul > li.active {
+  border-bottom: none;
+}
+#cssmenu > ul > li.active > a {
+  color: #fff;
+}
+#cssmenu > ul > li.active > a span {
+  background:#3C8DBC; /*:#003366;   #bd0e36; */
+}
+#cssmenu span.cnt {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+}
+/* Sub menu */
+#cssmenu ul ul {
+  display: none;
+}
+#cssmenu ul ul li {
+  border: 1px dotted #e0e0e0;
+  border-top: 0;
+}
+#cssmenu ul ul a {
+  padding: 7px;
+  display: block;
+  color: #444;
+  font-size: 13px;
+}
+#cssmenu ul ul a:hover {
+  color:#003366; /* #bd0e36; */
+}
+#cssmenu ul ul li.odd {
+  background: #f4f4f4;
+}
+#cssmenu ul ul li.even {
+  background: #fff;
+}
